@@ -6,3 +6,17 @@ body {
 #root {
   padding: 2rem;
 }
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.4rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
