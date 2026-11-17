@@ -16,7 +16,7 @@ function App() {
 
   return (
     <main>
-      <h1>Feedback hub</h1>
+      <h1>{import.meta.env.VITE_app_name}</h1>
       <form onSubmit={ajouterIdee}>
         <label htmlFor="titre-idee">Titre de l'idée</label>
         <input
