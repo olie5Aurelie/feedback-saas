@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff3a6;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cg stroke='%23f4b400' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M40 7v7M40 66v7M7 40h7M66 40h7M16.7 16.7l5 5M58.3 58.3l5 5M63.3 16.7l-5 5M21.7 58.3l-5 5'/%3E%3C/g%3E%3Ccircle cx='40' cy='40' r='13' fill='%23f4b400'/%3E%3C/svg%3E");
+  background-size: 80px 80px;
+}
+
+#root {
+  padding: 2rem;
+}
+
+h1 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid #b88900;
+  background-color: rgba(255, 250, 220, 0.8);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.4rem;
+}
+
+.coeur-ajout {
+  color: #e83e8c;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
